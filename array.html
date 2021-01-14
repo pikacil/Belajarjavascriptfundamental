@@ -1,0 +1,31 @@
+<html>
+
+<head>
+    <title>array</title>
+    <script type="text/javascript" src="./array.js" defer></script>
+</head>
+
+<body>
+    <label for="txtitem"></label>
+    <input type="text" id="txtitem" />
+    <select id=lstjnsitem>
+        <option value="buah">buah</option>
+        <option value="sayur">sayur</option>
+    </select>
+    <button id="btnbuah" onclick="tambahitem(document.getElementById('txtitem').value,document.getElementById('lstjnsitem').value)">tambah item</button>
+    <p>jenis buah</p>
+    <label for="txtbuah"></label>
+    <input type="text" id="txtbuah" />
+    <button id="btnbuah" onclick="tambahbuah(document.getElementById('txtbuah').value)">tambah buah</button>
+    <ul>
+        <div id="buah"></div>
+    </ul>
+    <label for="txtsayur"></label>
+    <input type="text" id="txtsayur" />
+    <button id="btnsayur" onclick="tambahsayur(document.getElementById('txtsayur').value)">tambah sayur</button>
+    <ul>
+        <div id="sayur"></div>
+    </ul>
+</body>
+
+</html>
